@@ -204,3 +204,63 @@ stat p {
   font-size: 0.8rem;
   color: gray;
 }
+/* ===== Contact Section ===== */
+.contact {
+  background-color: #f3f6fd;
+  padding: 80px 20px;
+}
+
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.contact .left h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.contact .right {
+  width: 100%;
+  max-width: 400px;
+}
+
+.contact form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: inherit;
+}
+
+.contact textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.contact-btn {
+  background-color: #4f46e5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: #3b36b4;
+}
