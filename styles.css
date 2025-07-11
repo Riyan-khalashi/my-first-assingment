@@ -154,7 +154,7 @@ stat p {
   margin-left: 151px;
   margin-right: 149px;
   border-radius: 20px;
-  margin-bottom: 92.23px;
+  margin-bottom: 92px;
 }
 .testimonials h2 {
   font-size: 42px;
@@ -182,13 +182,13 @@ stat p {
 }
 
 .testimonial-card h3 {
-  font-size: 1.1rem;
+  font-size: 17px;
   font-weight: 600;
   margin-bottom: 24px;
 }
 
 .testimonial-card p {
-  font-size: 0.95rem;
+  font-size: 15px;
   color: #444;
 }
 
@@ -206,7 +206,7 @@ stat p {
 }
 
 .reviewer .date {
-  font-size: 0.8rem;
+  font-size: 12px;
   color: gray;
 }
 
@@ -278,9 +278,10 @@ stat p {
 }
 
 .footer-logo {
-  color: #4f46e5;
-  font-size: 2rem;
-  font-weight: 800;
+  font-family: 'Inter', sans-serif;
+  color: rgba(78, 71, 255, 1);
+  font-size:100px;
+  font-weight: 900;
   margin-bottom: 15px;
 }
 
@@ -288,7 +289,7 @@ stat p {
   max-width: 600px;
   margin: 0 auto 25px;
   color: #777;
-  font-size: 0.95rem;
+  font-size: 15px;
   line-height: 1.6;
 }
 
@@ -304,7 +305,7 @@ stat p {
   color: #666;
   text-decoration: none;
   font-weight: 500;
-  font-size: 0.95rem;
+  font-size: 15px;
   transition: color 0.3s ease;
 }
 
