@@ -7,6 +7,7 @@
 
 main {
     background-color: #f3f6fd;
+    padding-top: 113px;
 }
 
 .nav {
@@ -43,7 +44,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-
+   
 
 }
 
@@ -75,17 +76,18 @@ main {
 }
 
 .action-section {
-    padding: 0 141px 159px;
-    border-top: 113px;
-
-
+    padding-left: 141px;
+    padding-right: 159px;
+   
+    
 }
 
 .action-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 220px;
+    
+    gap:auto;
 }
 
 .text h2 {
