@@ -213,14 +213,15 @@ stat p {
 .contact-content {
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 115px;
   align-items: flex-start;
   justify-content: center;
 }
 
 .contact .left h2 {
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 97px;
+  font-weight: bold;
+  font-family:  'Raleway', sans-serif;
 }
 
 .contact .right {
@@ -241,7 +242,7 @@ stat p {
   margin-bottom: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  font-family: inherit;
+  
 }
 
 .contact textarea {
@@ -262,5 +263,5 @@ stat p {
 }
 
 .contact-btn:hover {
-  background-color: #3b36b4;
+  background-color: rgba(78, 71, 255, 1);
 }
