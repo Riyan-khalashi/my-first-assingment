@@ -4,6 +4,9 @@
    font-weight: <weight>;
   font-style: normal;
   }
+  main{
+    background-color:#f3f6fd; 
+  }
 .nav {
   display: flex;
   justify-content: space-between;
@@ -33,14 +36,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  margin-bottom: 116px;
+  
   
 }
 .header-content h1 {
   font-size: 65px;
   font-weight: bolder;
   color: rgba(37, 36, 50, 1);
-  margin-bottom: 37px;
+ 
   
 }
 .cta-btn {
@@ -61,7 +64,9 @@
 }
 .action-section {
   padding: 0 141px 159px;
-  background-color: #FFFFFF;
+  border-top: 113px;
+  
+  
 }
 .action-content {
   display: flex;
@@ -143,7 +148,7 @@ stat p {
   margin-top: 5px;
 }
 .testimonials {
-  background-color:whitesmoke;
+  
   padding: 60px 20px;
   text-align: center;
   margin-left: 151px;
@@ -204,7 +209,7 @@ stat p {
   font-size: 0.8rem;
   color: gray;
 }
-/* ===== Contact Section ===== */
+
 .contact {
   background-color: #f3f6fd;
   padding: 80px 20px;
