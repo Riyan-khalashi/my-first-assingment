@@ -224,8 +224,8 @@ stat p {
 }
 
 .contact .left h2 {
-  font-size: 97px;
-  font-weight: bold;
+  font-size: 100px;
+  font-weight: 800px;
   font-family:  'Raleway', sans-serif;
 }
 
@@ -269,4 +269,45 @@ stat p {
 
 .contact-btn:hover {
   background-color: rgba(78, 71, 255, 1);
+}
+
+.footer {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.footer-logo {
+  color: #4f46e5;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.footer-text {
+  max-width: 600px;
+  margin: 0 auto 25px;
+  color: #777;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.footer-links a {
+  color: #666;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #3c49f4;
 }
